@@ -1,6 +1,7 @@
 package com.example.jpaClass.Entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import io.swagger.v3.oas.annotations.Operation;
 import jakarta.persistence.*;
 
 import java.util.ArrayList;
@@ -39,6 +40,7 @@ public class Curso {
         this.nome = nome;
         this.numeroSala = numeroSala;
     }
+
 
     public long getIdCurso() {
         return idCurso;

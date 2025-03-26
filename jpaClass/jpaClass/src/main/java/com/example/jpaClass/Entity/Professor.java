@@ -13,6 +13,7 @@ public class Professor {
     @OneToOne(mappedBy = "professor")
     private  Curso curso;
 
+
     public Professor(long idProfessor, String nome, String cpf) {
         this.idProfessor = idProfessor;
         this.nome = nome;
